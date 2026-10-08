@@ -42,6 +42,35 @@ nav ul li{
 }
 
 #home-content{
-
+    padding: 1rem;
     
+}
+
+.btn-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.btn-cta a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #2c3639;
+    margin-left: 1rem;
+}
+
+#btn-icon{
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    background-color: #dcd7ca;
+    color: #2c3639;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
 }
