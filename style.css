@@ -9,10 +9,17 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    padding: 1rem;
 }
 
 a{
     text-decoration: none;
+    color: white;
+    transition: 200ms ease;
+}
+
+a:hover{
+    color: #a27b5b;
 }
 
 nav ul{
@@ -46,6 +53,10 @@ nav ul li{
     
 }
 
+#home-content h1{
+    margin-bottom: 1rem
+}
+
 .btn-cta{
     display: flex;
     flex-direction: row;
@@ -74,3 +85,21 @@ nav ul li{
     align-items: center;
     border-radius: 1rem;
 }
+
+#second{
+    display: flex;
+    padding: 6rem 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#second h2{
+    margin-bottom: 2.3rem;
+}
+
+.btn-more{
+    padding: 0.6rem 1rem;
+    border: 1px solid #2c3639;
+}
+
